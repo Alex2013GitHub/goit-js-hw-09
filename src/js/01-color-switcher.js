@@ -38,3 +38,18 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
+const buttonWidth = 70; // фиксированная ширина кнопки
+const spacing = 10; // расстояние между кнопками
+
+refs.startButton.style.position = 'absolute';
+refs.startButton.style.top = '50%';
+refs.startButton.style.left = `calc(50% - ${buttonWidth + spacing}px)`;
+refs.startButton.style.transform = 'translate(-50%, -50%)';
+refs.startButton.style.width = `${buttonWidth}px`;
+
+refs.stopButton.style.position = 'absolute';
+refs.stopButton.style.top = '50%';
+refs.stopButton.style.left = '50%';
+refs.stopButton.style.transform = 'translate(-50%, -50%)';
+refs.stopButton.style.width = `${buttonWidth}px`;
