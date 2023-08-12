@@ -39,8 +39,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const buttonWidth = 70; // фиксированная ширина кнопки
-const spacing = 10; // расстояние между кнопками
+const buttonWidth = 70; 
+const spacing = 10; 
 
 refs.startButton.style.position = 'absolute';
 refs.startButton.style.top = '50%';
