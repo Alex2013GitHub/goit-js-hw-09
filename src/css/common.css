@@ -12,6 +12,12 @@ body {
   line-height: 1.5;
 }
 
+.color-switcher {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -36,15 +42,15 @@ ul {
   border-radius: 8px;
   margin-left: 10px;
   cursor: pointer;
-  border: 2px solid #fff352;
-  background-color: #21ebff;
+  border: 2px solid black;
+  background-color: #c0c0c0;
   outline: none;
   font-weight: 700;
 }
 
 .picker:disabled {
-  border: 2px solid #21ebff;
-  background-color: #ff9aff;
+  border: 2px solid #191970;
+  background-color: #e6e6fa;
   outline: none;
 }
 
@@ -78,7 +84,7 @@ ul {
 }
 
 .value.end {
-  color: #black;
+  color: black;
 }
 
 .label {
