@@ -106,6 +106,7 @@ ul {
   cursor: pointer;
   font-size: large;
   font-weight: 700;
+  cursor: not-allowed;
 }
 
 .btn-start:disabled {
