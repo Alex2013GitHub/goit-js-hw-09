@@ -5,11 +5,10 @@ const stopButton = document.querySelector('button[data-stop]');
 startButton.addEventListener('click', startBtnClick);
 stopButton.addEventListener('click', stopBtnClick);
 
-let timerId = null;
+let intervalId = null;
 
 function startBtnClick() {
   intervalId = setInterval(() => {
-    timerId += 1;
     const onHexChangecolor = getRandomHexColor();
     bodyEl.style.backgroundColor = onHexChangecolor;
   }, 1000);
